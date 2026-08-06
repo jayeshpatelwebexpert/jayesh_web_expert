@@ -5,7 +5,7 @@ $(document).ready(function () {
     $(".cta .mobile-icon").click(function () {
         $("body").addClass("open-menu");
     });
-
+ 
     // Close Mobile Menu
     $(".mobile-menu .mobile-menu-header span").click(function () {
         $("body").removeClass("open-menu");
