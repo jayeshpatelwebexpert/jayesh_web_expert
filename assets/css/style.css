@@ -1,0 +1,1137 @@
+body{
+    font-family: "Afacad Flux", sans-serif;
+    color: #fff;
+    background-color: #101010;
+    font-size:26px;
+}
+.desktop-view{
+    display: block;
+}
+.mobile-view{
+    display: none;
+}
+section {
+    padding: 0 0 100px 0;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{    
+    font-family: "Ubuntu", sans-serif;
+}
+h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.section-title {
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.section-title span {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+}
+
+.section-title h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-title p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    padding: 30px 0;
+    /* border-bottom: dotted 2px #ddd; */
+}
+
+header .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .main-header .logo{
+}
+
+header .main-header .logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+}
+
+header .main-header .menu {}
+
+header .main-header .menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header .main-header .menu ul li {
+    display: inline-block;
+}
+
+header .main-header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0 15px;
+    font-size: 24px;
+}
+
+.cta a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+.cta a:hover {
+    background: transparent;
+    border: solid 1px #fff;
+}
+.cta .mobile-icon {
+    display: none;
+}
+.hero-section {
+    padding: 100px 0;
+}
+
+.hero-section .hero-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    width: 83.333333%;
+    margin: 0 auto;
+}
+.hero-section .hero-card .hero-box {
+    text-align: center;
+}
+
+.hero-section .hero-card .hero-box h1 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-section .hero-card .hero-box p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 30px;
+}
+
+.hero-section .hero-card .hero-box a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+
+.hero-section .hero-card .hero-box a:hover {
+    background: transparent;
+    border: solid 1px #fff;
+}
+
+.state-section {}
+
+.state-section .state-box {
+    border: solid 1px #fff;
+    padding: 60px 40px;
+    border-radius: 100px;
+    background-color: #171717
+}
+
+.state-section .state-box .state-card {
+    text-align: center;
+}
+
+.state-section .state-box .state-card span {
+    display: block;
+    margin: 0;
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.state-section .state-box .state-card h2 {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.about-section {
+    padding:  0 0 100px 0;
+}
+.about-section .about-img {
+    margin: 0 0 30px;
+}
+
+.about-section .about-img img {
+    width: 100%;
+}
+
+.about-section .about-link {
+    text-align: center;
+}
+
+.about-section .about-link a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 0 auto;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+
+.about-section .about-link a:hover {
+    background: transparent;
+    border: solid 1px #fff;
+}
+
+.services-section {}
+
+.services-section .services-card {
+    padding: 30px;
+    margin: 0 0 30px;
+    border-radius: 40px;
+    background-color: #171717;
+    min-height: 360px;
+}
+
+.services-section .services-card .services-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+}
+
+.services-section .services-card .services-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.services-section .services-card .services-text {
+    text-align: center;
+}
+
+.services-section .services-card .services-text h3 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.services-section .services-card .services-text p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+}
+
+.services-section .services-card .services-text h3 span {
+    display: block;
+}
+
+.expertise-section {}
+
+.expertise-section .expertise-list {}
+
+.expertise-section .expertise-list .expertise-line-1 {
+    text-align: center;
+}
+
+.expertise-section .expertise-list .expertise-line-1 a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #171717;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 9px 5px;
+    border: solid 1px #fff;
+    transition: all 0.5s;
+}
+
+.expertise-section .expertise-list .expertise-line-1 a:hover {
+    background: #000;
+    border-color: #000;
+}
+
+
+.featured-card {
+    position: relative;
+    /* border-radius: 38px; */
+    /* overflow: hidden; */
+    margin: 0 0 20px;
+}
+
+.featured-card .featured-img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 38px;
+    position: relative;
+}
+.featured-card .featured-img:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #00000073;
+}
+
+.featured-card .featured-img img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.featured-card .featured-link {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.featured-card .featured-link a {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: #000000E5;
+    padding: 25px 20px;
+    border-radius: 0 0 30px 30px;
+}
+
+.featured-section {}
+
+.featured-section .featured-text {
+    margin: 50px 0 0;
+}
+
+.featured-section .featured-text p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.featured-section .featured-text span {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+    border: solid 1px #fff;
+    padding: 35px 50px;
+    border-radius: 100px;
+    background: #171717;
+}
+
+.marquee {
+  overflow: hidden;
+  display: flex;
+  background-color: #171717;
+  padding: 20px 0;
+}
+
+.marquee h3{
+  font-size: 3em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.expertise-section .expertise-list .expertise-line-1 a img {
+    width: 27px;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+}
+.testimonial-card {
+    padding: 40px;
+    background: #171717;
+    border-radius: 40px;
+    min-height: 587px;
+}
+
+.testimonial-card .testimonial-round {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 100px;
+    background: #000;
+    margin: 0 0 20px;
+}
+
+.testimonial-card .testimonial-round span {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Ubuntu';
+    display: block;
+}
+
+.testimonial-card .testimonial-text {}
+
+.testimonial-card .testimonial-text p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+}
+
+.testimonial-card .testimonial-text h3 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 40px 0 0;
+}
+
+.testimonial-card .testimonial-text span {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: block;
+    margin: 5px 0 0;
+}
+
+.contact-card {
+    text-align: center;
+}
+
+.contact-card h3 {
+    text-align: center;
+}
+
+.contact-card .expertise-list {}
+
+.contact-card .expertise-list .expertise-line-1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contact-card .expertise-list .expertise-line-1 a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #171717;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 9px 5px;
+    border: solid 1px #fff;
+    transition: all 0.5s;
+}
+
+.contact-card h4 {font-family: 'Afacad Flux';font-weight: 400;font-size: 26px;line-height: 48px;letter-spacing: 0%;text-align: center;color: #fff;margin: 0;}
+
+.contact-card h4 a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 0 0 0 20px;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+
+.footer-section {
+    padding: 20px 0;
+    border-top: 1px solid #161616;
+    background: #101010;
+}
+
+.footer-section .footer-card {
+    text-align: center;
+}
+
+.footer-section .footer-card p {
+    margin: 0;
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+/* .line-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.line-box span {
+    width: 13%;
+    display: block;
+    height: 100%;
+    border-right: solid 1px #161616;
+    border-left: solid 1px #161616;
+} */
+
+/* Background Lines */
+.line-box{
+    position:fixed;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:1200px;
+    height:100vh;
+    display:flex;
+    justify-content:space-between;
+    pointer-events:none;
+    z-index:0;
+}
+
+.line-box span{
+    position:relative;
+    width:1px;
+    height:100%;
+    background:rgba(255,255,255,0.08);
+    overflow:hidden;
+}
+
+/* Moving Light */
+.line-box span::before{
+    content:"";
+    position:absolute;
+    top:-150px;
+    left:0;
+    width:100%;
+    height:150px;
+    background:linear-gradient(
+        to bottom,
+        transparent,
+        rgba(255,255,255,0.8),
+        transparent
+    );
+    animation:lineAnimation 8s linear infinite;
+}
+
+.line-box span:nth-child(2)::before{
+    animation-delay:1s;
+}
+
+.line-box span:nth-child(3)::before{
+    animation-delay:2s;
+}
+
+.line-box span:nth-child(4)::before{
+    animation-delay:3s;
+}
+
+.line-box span:nth-child(5)::before{
+    animation-delay:4s;
+}
+
+@keyframes lineAnimation{
+    0%{
+        top:-150px;
+    }
+    100%{
+        top:100%;
+    }
+}
+.mobile-menu {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #171717;
+    left: -100%;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.mobile-menu .mobile-menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: solid 1px #2a2a2a;
+}
+
+.mobile-menu .mobile-menu-header span {
+    display: block;
+}
+
+.mobile-menu .mobile-menu-body {
+    padding: 0;
+}
+
+.mobile-menu .mobile-menu-body ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mobile-menu .mobile-menu-body ul li {
+    display: block;
+    border-bottom: solid 1px #2a2a2a;
+}
+
+.mobile-menu .mobile-menu-body ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+    padding:  20px 10px;
+}
+
+body.open-menu .mobile-menu {
+    left: 0;
+}
+.contact-buttons {
+    position: fixed;
+    left: 30px;
+    top: 40%;
+    z-index: 1;
+}
+
+.contact-buttons a.contact-btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 30px 0;
+}
+
+.contact-buttons a.contact-btn img {
+    width: 100%;
+}
+
+
+
+.portfolio-hero {
+    padding: 100px 0;
+}
+
+.portfolio-hero .portfolio-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-hero .portfolio-card .portfolio-text {}
+
+.portfolio-hero .portfolio-card .portfolio-text span {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.portfolio-hero .portfolio-card .portfolio-text h1 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.portfolio-hero .portfolio-card .portfolio-text p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 0 0 15px;
+}
+
+.portfolio-hero .portfolio-card .portfolio-text small {
+    display: block;
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.portfolio-hero .portfolio-card .portfolio-text a {
+    border-radius: 100px;
+    padding: 10px 25px;
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0 0;
+    text-decoration: none;
+}
+
+.portfolio-hero .portfolio-card .portfolio-img {
+    /* width: 100%; */
+}
+
+.portfolio-hero .portfolio-card .portfolio-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-object {
+    padding: 0 0 100px;
+}
+
+.portfolio-object .portfolio-object-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.portfolio-object .portfolio-object-card .portfolio-object-box {
+    margin: 0 0 20px;
+}
+
+.portfolio-object .portfolio-object-card .portfolio-object-box h2 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0 0 20px;
+}
+
+
+.portfolio-object .portfolio-object-card .portfolio-object-box h3 {
+    font-family: 'Afacad Flux';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 0;
+}
+
+.portfolio-object .portfolio-object-card .portfolio-object-box p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 0 0 15px;
+}
+
+.portfolio-contribution {
+    padding: 0 0 100px;
+}
+
+.portfolio-contribution .contribution-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.portfolio-contribution .contribution-card .contribution-img {
+    /* width: 100%; */
+}
+
+.portfolio-contribution .contribution-card .contribution-img img {
+    width: 100%;
+}
+
+.portfolio-contribution .portfolio-contribution-details {
+    padding: 20px 126px;
+    text-align: center;
+    border: 1px solid #696969;
+    border-radius: 59px;
+    margin: 50px 0 0;
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.portfolio-contribution .contribution-card .contribution-object {}
+
+.portfolio-contribution .contribution-card .contribution-object h2 {
+    text-align: left;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.portfolio-contribution .contribution-card .contribution-object p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.portfolio-contribution .contribution-card .contribution-object ul {}
+
+.portfolio-contribution .contribution-card .contribution-object ul li {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.Gallery-section {
+    padding: 0 0 100px;
+}
+
+.Gallery-section .Gallery-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 41px;
+}
+
+.Gallery-section .Gallery-box img {
+    width: 100%;
+}
+
+.Gallery-section .Gallery-box:before {content: '';position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: hwb(0deg 0% 100% / 50%);}
+
+.portfolio-object .portfolio-object-card .portfolio-object-img {
+    /* width: 100%; */
+}
+
+.portfolio-object .portfolio-object-card .portfolio-object-img img {
+    width: 100%;
+}
+.featured-link a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 0 auto;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+
+.featured-link {
+    text-align: center;
+}
+.contact-information {}
+
+.contact-information .contact-information-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-information .contact-information-card a.contact-information-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-information .contact-information-card a.contact-information-box .contact-information-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0 0;
+}
+
+.contact-information .contact-information-card a.contact-information-box .contact-information-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-information .contact-information-card a.contact-information-box p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.contact-information .contact-information-card .contact-information-img {}
+
+.contact-information .contact-information-card .contact-information-img img {
+    width: 100%;
+}
+
+
+.experience-section {
+}
+
+.experience-section .experience-card {
+    padding: 30px;
+    border-radius: 36px;
+    opacity: 1;
+    background: #171717;
+}
+
+.experience-section .experience-card .experience-title {}
+
+.experience-section .experience-card .experience-title small {
+    color: transparent;                 /* Transparent fill */
+    -webkit-text-stroke: 1px rgba(146,146,146,1);
+    text-stroke: 1px rgba(146,146,146,1);
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 78px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 0 10px;
+    display: block;
+    text-align: left;
+}
+
+.experience-section .experience-card .experience-title h3 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 0;
+}
+
+.experience-section .experience-card .experience-title p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+.experience-section .experience-card .experience-text {}
+
+.experience-section .experience-card .experience-text p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 70px 0 30px;
+    min-height: 306px;
+}
+
+.experience-section .experience-card .experience-text h5 {}
+
+.industries-section .industries-card {
+    text-align: center;
+    padding: 20px;
+    background: #171717;
+    border-radius: 36px;
+}
+
+.industries-section .industries-card .industries-img {
+    margin: 0 auto 20px;
+}
+
+.industries-section .industries-card .industries-img img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.industries-section .industries-card h3 {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.process-section {padding: 0 0 100px;}
+
+.process-section .process-title {
+    text-align: left;
+}
+
+.process-section .process-title small {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+}
+
+.process-section .process-title h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.process-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0;
+    border-top: 0.5px solid #D4D4D4;
+}
+
+.process-card .process-number {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin: 0 20px 0 0;
+    border: solid 1px #ddd;
+    border-radius: 100px;
+    line-height: 90px;
+    color: transparent;
+    -webkit-text-stroke: 0.5px rgba(255,255,255,1);
+    text-stroke: 0.5px rgba(255,255,255,1);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.process-card .process-text {}
+
+.process-card .process-text h3 {
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 0;
+}
+
+.process-card .process-text p {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin: 0;
+}
+
+.process-card:last-child {
+    border-bottom: 0.5px solid #D4D4D4;
+}
+
