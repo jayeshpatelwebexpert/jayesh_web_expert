@@ -38,7 +38,7 @@ gsap.to(".cursor-example", {
 document.addEventListener("mousemove", (e) => {
   mouseX = e.clientX;
   mouseY = e.clientY;
-});
+}); 
 
 gsap.registerPlugin(ScrollTrigger);
 
