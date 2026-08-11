@@ -42,7 +42,7 @@ document.addEventListener("mousemove", (e) => {
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.utils.toArray(".about-img, .portfolio-object-card, .portfolio-card, .experience-card, .process-title, .contribution-card, .contact-information-card, .contact-information-box, .services-box-card, .process-card, .services-card, .hero-card, .industries-card, .state-card, .featured-card, .section-title span,.section-title h2,.section-title p, .testimonial-card, .contact-card h3, .expertise-line-1, .cta-btns, .featured-text span, .featured-text span, .featured-link a, .about-section .about-link a").forEach((card) => {
+gsap.utils.toArray(".about-img, .portfolio-object-card, .portfolio-card, .experience-card, .process-title, .contribution-card, .contact-information-card, .contact-information-box, .services-box-card, .process-card, .services-card, .hero-card, .industries-card, .featured-card, .section-title span,.section-title h2,.section-title p, .testimonial-card, .contact-card h3, .expertise-line-1, .cta-btns, .featured-text span, .featured-text span, .featured-link a, .about-section .about-link a").forEach((card) => {
     gsap.from(card, {
         opacity: 0,
         y: 50,
