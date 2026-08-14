@@ -13,73 +13,73 @@ $(document).ready(function () {
 });
 
 
-let posX = 0,
-  posY = 0;
+// let posX = 0,
+//   posY = 0;
 
-let mouseX = 0,
-  mouseY = 0;
+// let mouseX = 0,
+//   mouseY = 0;
 
-gsap.to(".cursor-example", {
-  duration: 0.018,
-  repeat: -1,
-  onRepeat: function () {
-    posX += (mouseX - posX) / 8;
-    posY += (mouseY - posY) / 8;
+// gsap.to(".cursor-example", {
+//   duration: 0.018,
+//   repeat: -1,
+//   onRepeat: function () {
+//     posX += (mouseX - posX) / 8;
+//     posY += (mouseY - posY) / 8;
 
-    gsap.set(".cursor-example", {
-      css: {
-        left: posX - 1,
-        top: posY - 2
-      }
-    });
-  }
-});
+//     gsap.set(".cursor-example", {
+//       css: {
+//         left: posX - 1,
+//         top: posY - 2
+//       }
+//     });
+//   }
+// });
 
-document.addEventListener("mousemove", (e) => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
-}); 
+// document.addEventListener("mousemove", (e) => {
+//   mouseX = e.clientX;
+//   mouseY = e.clientY;
+// }); 
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
-gsap.utils.toArray(".about-img, .portfolio-object-card, .portfolio-card, .experience-card, .process-title, .contribution-card, .contact-information-card, .contact-information-box, .services-box-card, .process-card, .services-card, .hero-card, .industries-card, .featured-card, .section-title span,.section-title h2,.section-title p, .testimonial-card, .contact-card h3, .expertise-line-1, .cta-btns, .featured-text span, .featured-text span, .featured-link a, .about-section .about-link a").forEach((card) => {
-    gsap.from(card, {
-        opacity: 0,
-        y: 50,
-        duration: 0.8,
-        ease: "power3.out",
+// gsap.utils.toArray(".about-img, .portfolio-object-card, .portfolio-card, .experience-card, .process-title, .contribution-card, .contact-information-card, .contact-information-box, .services-box-card, .process-card, .services-card, .hero-card, .industries-card, .featured-card, .section-title span,.section-title h2,.section-title p, .testimonial-card, .contact-card h3, .expertise-line-1, .cta-btns, .featured-text span, .featured-text span, .featured-link a, .about-section .about-link a").forEach((card) => {
+//     gsap.from(card, {
+//         opacity: 0,
+//         y: 50,
+//         duration: 0.8,
+//         ease: "power3.out",
 
-        scrollTrigger: {
-            trigger: card,
-            start: "top 85%",
-            toggleActions: "play none none reverse"
-        }
-    });
-});
-gsap.registerPlugin(ScrollTrigger);
+//         scrollTrigger: {
+//             trigger: card,
+//             start: "top 85%",
+//             toggleActions: "play none none reverse"
+//         }
+//     });
+// });
+// gsap.registerPlugin(ScrollTrigger);
 
-gsap.utils.toArray(".counter").forEach((counter) => {
+// gsap.utils.toArray(".counter").forEach((counter) => {
 
-    const obj = { value: 0 };
-    const target = parseInt(counter.dataset.count);
+//     const obj = { value: 0 };
+//     const target = parseInt(counter.dataset.count);
 
-    gsap.to(obj, {
-        value: target,
-        duration: 2,
-        ease: "power2.out",
+//     gsap.to(obj, {
+//         value: target,
+//         duration: 2,
+//         ease: "power2.out",
 
-        scrollTrigger: {
-            trigger: counter,
-            start: "top 85%",
-            once: true
-        },
+//         scrollTrigger: {
+//             trigger: counter,
+//             start: "top 85%",
+//             once: true
+//         },
 
-        onUpdate: () => {
-            counter.textContent = Math.ceil(obj.value) + "+";
-        }
-    });
+//         onUpdate: () => {
+//             counter.textContent = Math.ceil(obj.value) + "+";
+//         }
+//     });
 
-});
+// });
 
 
 function Marquee(selector, speed) {
