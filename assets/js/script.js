@@ -56,30 +56,31 @@ $(document).ready(function () {
 //         }
 //     });
 // });
-// gsap.registerPlugin(ScrollTrigger);
 
-// gsap.utils.toArray(".counter").forEach((counter) => {
+gsap.registerPlugin(ScrollTrigger);
 
-//     const obj = { value: 0 };
-//     const target = parseInt(counter.dataset.count);
+gsap.utils.toArray(".counter").forEach((counter) => {
 
-//     gsap.to(obj, {
-//         value: target,
-//         duration: 2,
-//         ease: "power2.out",
+    const obj = { value: 0 };
+    const target = parseInt(counter.dataset.count);
 
-//         scrollTrigger: {
-//             trigger: counter,
-//             start: "top 85%",
-//             once: true
-//         },
+    gsap.to(obj, {
+        value: target,
+        duration: 2,
+        ease: "power2.out",
 
-//         onUpdate: () => {
-//             counter.textContent = Math.ceil(obj.value) + "+";
-//         }
-//     });
+        scrollTrigger: {
+            trigger: counter,
+            start: "top 85%",
+            once: true
+        },
 
-// });
+        onUpdate: () => {
+            counter.textContent = Math.ceil(obj.value) + "+";
+        }
+    });
+
+});
 
 
 function Marquee(selector, speed) {
