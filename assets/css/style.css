@@ -827,6 +827,7 @@ body.open-menu .mobile-menu {
 
 .portfolio-contribution .contribution-card .contribution-img {
     /* width: 100%; */
+        border-radius: 30px;    overflow: hidden;
 }
 
 .portfolio-contribution .contribution-card .contribution-img img {
@@ -1210,7 +1211,7 @@ body.open-menu .mobile-menu {
     margin: 0 auto;
     border-radius: 100px;
 }
-
+/* 
 .portfolio-object .portfolio-card {}
 
 .portfolio-object .portfolio-card .portfolio-object-img {}
@@ -1218,4 +1219,4 @@ body.open-menu .mobile-menu {
 .portfolio-object .portfolio-card .portfolio-object-img img {
     width: 100%;
     border-radius: 40px;
-}
+} */
