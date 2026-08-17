@@ -1210,3 +1210,12 @@ body.open-menu .mobile-menu {
     margin: 0 auto;
     border-radius: 100px;
 }
+
+.portfolio-object .portfolio-card {}
+
+.portfolio-object .portfolio-card .portfolio-object-img {}
+
+.portfolio-object .portfolio-card .portfolio-object-img img {
+    width: 100%;
+    border-radius: 40px;
+}
