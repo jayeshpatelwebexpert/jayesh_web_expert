@@ -222,6 +222,7 @@ header .main-header .menu ul li a {
 
 .about-section .about-img img {
     width: 100%;
+    border-radius: 30px;
 }
 
 .about-section .about-link {
@@ -1218,5 +1219,5 @@ body.open-menu .mobile-menu {
 
 .portfolio-object .portfolio-card .portfolio-object-img img {
     width: 100%;
-    border-radius: 40px;
+    border-radius: 30px;
 }
